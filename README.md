@@ -8,8 +8,7 @@
 ✅ Gestión de cursos para administradores (crear, eliminar, activar y desactivar cursos).  
 ✅ Listado de cursos disponibles para usuarios.  
 ✅ Interfaz sencilla y accesible.  
-✅ Utilización de Base de Datos SQL. 
-✅ Utilización de Servidor Axigen de Correo. 
+✅ Utilización de Base de Datos SQL y Servidor Axigen de Correo. 
 
 ## 📂 Estructura del Proyecto
 ```
