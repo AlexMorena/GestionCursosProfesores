@@ -1,4 +1,4 @@
-# 🎓 Gestion de Cursos
+# 🎓 Gestion de Cursos para Profesores
 
 ## 📖 Descripción
 **Gestion de Cursos** es una plataforma web que permite la administración y gestión de cursos para profesores. Los administradores pueden agregar, activar, desactivar y eliminar cursos, mientras que los profesores pueden inscribirse y consultar los cursos disponibles. 
@@ -9,10 +9,11 @@
 ✅ Listado de cursos disponibles para usuarios.  
 ✅ Interfaz sencilla y accesible.  
 ✅ Utilización de Base de Datos SQL. 
+✅ Utilización de Servidor Axigen de Correo. 
 
 ## 📂 Estructura del Proyecto
 ```
-GestionCursos/
+gestionCursosProfesores/
 │── 📜 index.php                # Página principal con autenticación y acceso a funcionalidades
 │── 📜 inicioSesion.php         # Página de inicio de sesión
 │── 📜 listadoCursos.php        # Listado de cursos disponibles
@@ -21,7 +22,6 @@ GestionCursos/
 │── 📜 eliminarCursos.php       # Eliminar cursos (Admin)
 │── 📜 mostrarAdmitidosPorCurso.php # Mostrar estudiantes admitidos por curso
 │── 📜 admitirProfesoresCursos.php  # Asignar profesores a cursos
-│── 📜 scriptsEnlaces/          # Carpeta con archivos de conexión y sesiones
 │── 📂 css/                     # Estilos de la plataforma
 │── 📂 scriptsEnlaces/          #Scripts necesarios para la conexion a la base de datos
 ```
@@ -31,9 +31,10 @@ GestionCursos/
 ```bash
  git clone https://github.com/tu-usuario/GestionCursosProfesores
 ```
-2️⃣ **Configura la base de datos** en `scriptsEnlaces/conexion.php`.  
-3️⃣ **Ejecuta el servidor local** con Apache y MySQL (XAMPP, WAMP o similar).  
-4️⃣ **Accede a `index.php` desde tu navegador**.  
+2️⃣ **Configura la base de datos** en `scriptsEnlaces/conexion.php`.   
+3️⃣ **Instalar y tener Servidor Axigen de Correo**. 
+4️⃣ **Ejecuta el servidor local** con Apache y MySQL (XAMPP, WAMP o similar). 
+5️⃣ **Accede a `index.php` desde tu navegador**. 
 
 ## 💡 Ejemplo de Uso
 - Un administrador inicia sesión y gestiona los cursos.
@@ -49,4 +50,4 @@ Este proyecto es de código abierto y puede ser utilizado libremente para fines 
 ## 📩 Contacto
 Para más información, sugerencias o mejoras, puedes contactarme en **alexmorena2002@gmail.com**. ✉️
 
-🎉 ¡Gracias por usar **Gestión de Cursos**! 🚀
+🎉 ¡Gracias por usar **Gestión de Cursos para Profesores**! 🚀
