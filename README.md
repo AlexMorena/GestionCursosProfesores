@@ -6,7 +6,7 @@
 ## 🚀 Características Principales
 ✅ Sistema de autenticación de usuarios (inicio y cierre de sesión).  
 ✅ Gestión de cursos para administradores (crear, eliminar, activar y desactivar cursos).  
-✅ Listado de cursos disponibles para usuarios.  
+✅ Listado de cursos disponibles para usuarios. 
 ✅ Interfaz sencilla y accesible.  
 ✅ Utilización de Base de Datos SQL y Servidor Axigen de Correo. 
 
